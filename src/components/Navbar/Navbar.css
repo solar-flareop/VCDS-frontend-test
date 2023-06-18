@@ -1,0 +1,32 @@
+.container {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  /* background-color: whitesmoke; */
+}
+
+.logo {
+  margin-left: 1rem;
+}
+.navlinks ul {
+  display: flex;
+}
+.navlinks ul li {
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.navbtn {
+  border: none;
+  all: unset;
+  font-weight: 500;
+  color: #035ee0;
+  cursor: pointer;
+}
+
+.navbtn:hover {
+  text-decoration: overline;
+}
