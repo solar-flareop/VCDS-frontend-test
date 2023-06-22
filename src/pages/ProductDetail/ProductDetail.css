@@ -1,0 +1,551 @@
+.productContainer {
+  display: flex;
+  /* align-items: center; */
+  padding: 1rem;
+}
+
+.productImage {
+  text-align: center;
+  padding: 0 2rem;
+}
+.productImage > img {
+  height: 90%;
+  width: 80%;
+}
+
+.productDetails {
+  margin-top: 0;
+  padding: 0 2rem;
+}
+
+.productTitle {
+  text-transform: uppercase;
+}
+
+.productAvailabile {
+  margin-bottom: 0;
+}
+
+.productAvailabile > span {
+  color:#41AE52;
+}
+
+.productRating {
+
+}
+
+.ratingStar {
+  margin: -0.2rem 0.3rem;
+  color: gainsboro;
+  font-size: larger;
+  
+}
+
+.ratingStar:hover{
+  color: yellow;
+}
+
+.productDescription {
+  margin-top: 1rem;
+
+}
+
+.productDescription >ul>li{
+font-size: small;
+  list-style: disc; 
+margin-left:-1rem;
+}
+
+.productQuantity {
+  margin: 0.5rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.productPrice {
+}
+
+.productButtons {
+}
+
+/* .hexagon-icon {
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .home {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+  .button,
+  .button1 {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .button1 {
+    color: #7271ff;
+  }
+  .hello-kadam,
+  .links {
+    position: absolute;
+    font-size: 1.38rem;
+    color: #344051;
+  }
+  .links {
+    top: 2.63rem;
+    left: 35.06rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+  .hello-kadam {
+    top: 2.88rem;
+    left: 88.31rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+  .unsplashc8ta0gwpbqg-icon {
+    position: absolute;
+    top: 1.69rem;
+    left: 100.13rem;
+    border-radius: 500px;
+    width: 3.69rem;
+    height: 3.69rem;
+    object-fit: cover;
+  }
+  .logo-website-1 {
+    position: absolute;
+    top: 1.5rem;
+    left: 3.63rem;
+    width: 12.5rem;
+    height: 5.69rem;
+    object-fit: cover;
+  }
+  .minimilstic-wedding-card {
+    position: absolute;
+    top: 8.94rem;
+    left: 60rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 49.94rem;
+  }
+  .div,
+  .price,
+  .rs-60072 {
+    position: absolute;
+    top: 43.69rem;
+    left: 60.63rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .div,
+  .rs-60072 {
+    top: 45.69rem;
+    font-size: 2rem;
+  }
+  .div {
+    top: 43.69rem;
+    left: 70.75rem;
+    font-size: 1rem;
+    color: #000;
+  }
+  .main-services-detailed-child {
+    position: absolute;
+    top: 8.94rem;
+    left: 6rem;
+    background-color: #f1f1f1;
+    width: 43.31rem;
+    height: 45.38rem;
+  }
+  .image-12-icon {
+    position: absolute;
+    top: 8.94rem;
+    left: 6.38rem;
+    width: 42.94rem;
+    height: 44.94rem;
+    object-fit: cover;
+  }
+  .gen5-ai-processor,
+  .pixel-dimming-perfect {
+    position: absolute;
+    top: 17.88rem;
+    left: 60.81rem;
+    font-weight: 300;
+  }
+  .pixel-dimming-perfect {
+    top: 20.06rem;
+  }
+  .dolby-vision-iq,
+  .eye-comfort-display,
+  .hands-free-voice-control {
+    position: absolute;
+    top: 22.25rem;
+    left: 60.81rem;
+    font-weight: 300;
+  }
+  .dolby-vision-iq,
+  .eye-comfort-display {
+    top: 24.44rem;
+  }
+  .eye-comfort-display {
+    top: 26.63rem;
+  }
+  .available {
+    font-weight: 500;
+    color: #41ae52;
+  }
+  .availability-available {
+    position: absolute;
+    top: 12.13rem;
+    left: 59.75rem;
+  }
+  .main-services-detailed-inner,
+  .main-services-detailed-item,
+  .star-icon {
+    position: absolute;
+    top: 14.19rem;
+    left: 59.73rem;
+    width: 1.88rem;
+    height: 1.88rem;
+  }
+  .main-services-detailed-inner,
+  .star-icon {
+    left: 62.23rem;
+  }
+  .star-icon {
+    left: 64.73rem;
+  }
+  .ellipse-div,
+  .main-services-detailed-child1,
+  .main-services-detailed-child2 {
+    position: absolute;
+    top: 14.19rem;
+    left: 67.23rem;
+    width: 1.88rem;
+    height: 1.88rem;
+  }
+  .ellipse-div,
+  .main-services-detailed-child2 {
+    left: 69.73rem;
+  }
+  .ellipse-div {
+    top: 18.31rem;
+    left: 59.5rem;
+    border-radius: 50%;
+    background-color: #191919;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  .main-services-detailed-child5,
+  .main-services-detailed-child6,
+  .main-services-detailed-child7,
+  .main-services-detailed-child8 {
+    position: absolute;
+    top: 20.5rem;
+    left: 59.5rem;
+    border-radius: 50%;
+    background-color: #191919;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  .main-services-detailed-child6,
+  .main-services-detailed-child7,
+  .main-services-detailed-child8 {
+    top: 22.69rem;
+  }
+  .main-services-detailed-child7,
+  .main-services-detailed-child8 {
+    top: 24.88rem;
+  }
+  .main-services-detailed-child8 {
+    top: 27.06rem;
+  }
+  .line-div,
+  .main-services-detailed-child9 {
+    position: absolute;
+    top: 29.53rem;
+    left: 59.47rem;
+    border-top: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    width: 41.69rem;
+    height: 0.06rem;
+  }
+  .main-services-detailed-child9 {
+    top: 40.66rem;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 31.56rem;
+    left: 59.5rem;
+    border: 1px solid #3433ff;
+    box-sizing: border-box;
+    width: 12.5rem;
+    height: 3.75rem;
+  }
+  .cm-42 {
+    position: absolute;
+    top: 32.75rem;
+    left: 62.5rem;
+    color: #4443ff;
+  }
+  .cm-48,
+  .cm-55,
+  .cm-65,
+  .cm-77,
+  .cm-83 {
+    position: absolute;
+    top: 32.75rem;
+    left: 74.94rem;
+    font-weight: 300;
+    color: #6f6f6f;
+  }
+  .cm-55,
+  .cm-65,
+  .cm-77,
+  .cm-83 {
+    left: 86.31rem;
+  }
+  .cm-65,
+  .cm-77,
+  .cm-83 {
+    top: 37.38rem;
+    left: 62.56rem;
+  }
+  .cm-77,
+  .cm-83 {
+    left: 74.94rem;
+  }
+  .cm-83 {
+    left: 86.31rem;
+  }
+  .main-services-detailed-child10,
+  .main-services-detailed-child11 {
+    position: absolute;
+    top: 51.25rem;
+    left: 57.81rem;
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    width: 12.63rem;
+    height: 3.75rem;
+  }
+  .main-services-detailed-child11 {
+    left: 69.75rem;
+    width: 4.63rem;
+  }
+  .main-services-detailed-child12 {
+    position: absolute;
+    top: 51.25rem;
+    left: 72.31rem;
+    background-color: #7271ff;
+    width: 12.63rem;
+    height: 3.75rem;
+  }
+  .div1 {
+    position: absolute;
+    top: 51.88rem;
+    left: 63.63rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .frame-icon,
+  .frame-icon1 {
+    position: absolute;
+    top: 52.38rem;
+    left: 59.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+  }
+  .frame-icon1 {
+    left: 67.63rem;
+  }
+  .buy-now {
+    position: absolute;
+    top: 52.44rem;
+    left: 76.19rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  .main-services-detailed-child13 {
+    position: absolute;
+    top: 45.63rem;
+    left: 15.25rem;
+    border-radius: 100px;
+    background-color: #191919;
+    filter: blur(40px);
+    width: 25.19rem;
+    height: 1rem;
+    opacity: 0.6;
+  }
+  .main-services-detailed-child14 {
+    position: absolute;
+    top: 46.91rem;
+    left: 69.59rem;
+    border-top: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    width: 6.07rem;
+    height: 0.06rem;
+  }
+  .add-a-review,
+  .reviews {
+    position: absolute;
+    top: 59rem;
+    left: 6rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 49.94rem;
+  }
+  .add-a-review {
+    left: 86.31rem;
+    font-size: 1.25rem;
+    color: #7271ff;
+  }
+  .child,
+  .child1,
+  .child2,
+  .inner,
+  .item {
+    position: absolute;
+    top: 3.38rem;
+    left: 77.61rem;
+    width: 1.88rem;
+    height: 1.88rem;
+  }
+  .child1,
+  .child2,
+  .inner,
+  .item {
+    left: 80.11rem;
+  }
+  .child1,
+  .child2,
+  .inner {
+    left: 82.61rem;
+  }
+  .child1,
+  .child2 {
+    left: 85.11rem;
+  }
+  .child2 {
+    left: 87.61rem;
+  }
+  .button5 {
+    position: absolute;
+    top: 4.13rem;
+    left: 10.19rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.38rem;
+    color: #344051;
+  }
+  .awesome-wedding-cards {
+    margin: 0;
+  }
+  .awesome-wedding-cards-container {
+    position: absolute;
+    top: 8.44rem;
+    left: 3.81rem;
+    font-weight: 300;
+    color: #191919;
+  }
+  .image-8-icon {
+    position: absolute;
+    top: 2.38rem;
+    left: 3rem;
+    border-radius: 100px;
+    width: 5.63rem;
+    height: 5.63rem;
+    object-fit: cover;
+  }
+  .reply {
+    top: 13.38rem;
+    left: 14.94rem;
+    font-weight: 300;
+  }
+  .div2,
+  .replies,
+  .reply {
+    position: absolute;
+  }
+  .replies {
+    top: 13.38rem;
+    left: 3.81rem;
+    font-weight: 300;
+  }
+  .div2 {
+    top: 4.75rem;
+    left: 6.38rem;
+    border-radius: 47.65px;
+    background-color: #fff;
+    box-shadow: 0 520px 146px transparent, 0 333px 133px rgba(0, 0, 0, 0.01),
+      0 187px 112px rgba(0, 0, 0, 0.05), 0 83px 83px rgba(0, 0, 0, 0.09),
+      0 21px 46px rgba(0, 0, 0, 0.1), 0 0 0 rgba(0, 0, 0, 0.1);
+    width: 95.25rem;
+    height: 16.88rem;
+    overflow: hidden;
+  }
+  .image-9-icon {
+    position: absolute;
+    top: 1.5rem;
+    left: 2.88rem;
+    border-radius: 200px;
+    width: 5.63rem;
+    height: 5.64rem;
+    object-fit: cover;
+  }
+  .div3,
+  .macbook-pro-16-24 {
+    position: absolute;
+    background-color: #fff;
+  }
+  .div3 {
+    top: 26.44rem;
+    left: 6.38rem;
+    border-radius: 47.65px;
+    box-shadow: 0 520px 146px transparent, 0 333px 133px rgba(0, 0, 0, 0.01),
+      0 187px 112px rgba(0, 0, 0, 0.05), 0 83px 83px rgba(0, 0, 0, 0.09),
+      0 21px 46px rgba(0, 0, 0, 0.1), 0 0 0 rgba(0, 0, 0, 0.1);
+    width: 95.25rem;
+    height: 16.88rem;
+    overflow: hidden;
+  }
+  .macbook-pro-16-24 {
+    top: 62.31rem;
+    left: 0;
+    width: 108rem;
+    height: 49.5rem;
+    overflow-y: auto;
+    color: #6f6f6f;
+  }
+  .main-services-detailed {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 111.81rem;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 1.13rem;
+    color: #191919;
+    font-family: Inter;
+  }
+   */

@@ -1,0 +1,119 @@
+.signup-screen {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("./bg-img.png");
+  }
+  
+  .img-section {
+    flex: 4;
+    max-width: 50%;
+    position: relative;
+  }
+  
+  .img-section img {
+    width: 80%;
+    height: 96%;
+    margin-left: 3%;
+    margin-top: 3%;
+    /* margin-bottom: 50%; */
+  }
+  
+  .form-section {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    /* padding: 20px; */
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  .logo-img {
+    height: 7rem;
+    margin-right: 10rem;
+  }
+  .register {
+    font-weight: 300;
+    margin-right: 10rem;
+    margin-top: -1rem;
+  }
+  .signup-form {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30rem;
+  }
+  
+  .signup-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 40rem;
+    border: solid 1px;
+    border-color: #b6b6b6;
+  }
+  .signup-input:focus {
+    border: 1px solid #b6b6ff;
+    outline: none;
+  }
+  .require-star {
+    color: red;
+    margin-right: 4px;
+  }
+  .signup-button {
+    padding: 14px;
+    background-color: #7271ff;
+    color: #fff;
+    border: none;
+    width: 41.5rem;
+    margin-top: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.422);
+  }
+  .signup-button:hover {
+    cursor: pointer;
+  }
+  .signup-with-google {
+    padding: 14px;
+    background-color: #ffffff;
+    color: #7271ff;
+    border: solid 1px;
+    width: 41.5rem;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .signup-with-google:hover {
+    cursor: pointer;
+  }
+  .google-icon {
+    height: 18px;
+    margin-right: 20px;
+    padding-bottom: -1rem;
+    vertical-align: bottom;
+  }
+  .signup {
+    color: black;
+    padding-bottom: 0.5rem;
+  }
+  .google-signup-txt {
+    display: inline;
+    margin-right: 30px;
+  }
+  .do-not-have-account {
+    margin-top: 2rem;
+    margin-left: -9rem;
+    font-weight: 350;
+  }
+  .do-not-have-account a {
+    color: #5c5cff;
+    text-decoration: none;
+    font-weight: 400;
+  }

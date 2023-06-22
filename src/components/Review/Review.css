@@ -1,0 +1,105 @@
+.child,
+.child1,
+.child2,
+.inner,
+.item {
+  position: absolute;
+  top: 3.38rem;
+  left: 77.61rem;
+  width: 1.88rem;
+  height: 1.88rem;
+}
+.child1,
+.child2,
+.inner,
+.item {
+  left: 80.11rem;
+}
+.child1,
+.child2,
+.inner {
+  left: 82.61rem;
+}
+.child1,
+.child2 {
+  left: 85.11rem;
+}
+.child2 {
+  left: 87.61rem;
+}
+.hexagon-icon22 {
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.solar-flare {
+  position: relative;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.button11 {
+  position: absolute;
+  top: 4.13rem;
+  left: 10.19rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.38rem;
+  color: #344051;
+}
+.awesome-wedding-cards {
+  margin: 0;
+}
+.awesome-wedding-cards-container {
+  position: absolute;
+  top: 8.44rem;
+  left: 3.81rem;
+  font-weight: 300;
+  color: #191919;
+}
+.image-8-icon {
+  position: absolute;
+  top: 2.38rem;
+  left: 3rem;
+  border-radius: 100px;
+  width: 5.63rem;
+  height: 5.63rem;
+  object-fit: cover;
+}
+.reply {
+  top: 13.38rem;
+  left: 14.94rem;
+  font-weight: 300;
+}
+.div2,
+.replies,
+.reply {
+  position: absolute;
+}
+.replies {
+  top: 13.38rem;
+  left: 3.81rem;
+  font-weight: 300;
+}
+.div2 {
+  top: 4.75rem;
+  left: 6.38rem;
+  border-radius: 47.65px;
+  background-color: #fff;
+  box-shadow: 0 520px 146px transparent, 0 333px 133px rgba(0, 0, 0, 0.01),
+    0 187px 112px rgba(0, 0, 0, 0.05), 0 83px 83px rgba(0, 0, 0, 0.09),
+    0 21px 46px rgba(0, 0, 0, 0.1), 0 0 0 rgba(0, 0, 0, 0.1);
+  width: 95.25rem;
+  height: 16.88rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1.13rem;
+  color: #6f6f6f;
+  font-family: Inter;
+}

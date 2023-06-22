@@ -1,5 +1,5 @@
 import axios from "axios";
-import Faq from "../components/Faq";
+import Faq from "../../components/Faq";
 import "./Home.css";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -61,7 +61,7 @@ const Home = () => {
 
       {/* Services */}
 
-      <section className="services_section">
+      <section className="services_section" id="services">
         <h2>Our Services</h2>
         <div className="services_container">
           {

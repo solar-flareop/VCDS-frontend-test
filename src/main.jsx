@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
       minBreakpoint="xxs"
     >
-      <Container fluid="xxl">
+      <Container fluid="xxl" style={{padding:'0 2rem'}}>
         <App />
       </Container>
     </ThemeProvider>

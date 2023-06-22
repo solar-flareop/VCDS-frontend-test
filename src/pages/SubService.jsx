@@ -1,5 +1,5 @@
 import axios from "axios";
-import "./Home.css";
+import "../pages/Home/Home.css";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Spinner from "react-bootstrap/Spinner";
